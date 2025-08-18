@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 7.1.5.2', github: 'rails/rails'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~>1.3.6'
@@ -36,7 +36,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
-  gem 'database_cleaner'
+  gem 'database_cleaner', '>= 2.0.2'
 end
 
 group :development do
